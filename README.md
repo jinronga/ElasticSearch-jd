@@ -1,39 +1,33 @@
 # ElasticSearch-jd
 
-#### 介绍
-{**以下是码云平台说明，您可以替换此简介**
-码云是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用码云实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+#### 介绍 
+学习ElasticSearch的入门实践，京东商城搜索风格。
 
-#### 软件架构
+#### 使用技术：
+
+项目采用SpringBoot构建。前端采用Thymeleaf模板引擎+Vue渲染页面数据,使用axios解决前后端跨越问题。
+涉及到的其他技术工具有ElasticSearch，Jsoup（解析网页），lombok。
+
 软件架构说明
 
 
-#### 安装教程
+#### 开发环境：
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+IDEA、JDK8、ElasticSearch 7.6.2、ElasticSearch-analysis-ik-7.6.2.、ElasticSearch-head chrome插件
 
-#### 使用说明
+#### 运行：
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1、git clone https://gitee.com/jinronga/ElasticSearch-jd.git
 
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+2、打开ElasticSearch，使用ElasticSearch-head查看ES数据
+3、用IDEA打开项目，运行ElasticsearchJdApplication文件
+4、[http://localhost:9090](http://localhost:9090/) 测试项目ES搜索功能
 
 
-#### 码云特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 参考：
+
+[遇见狂神说](https://www.bilibili.com/video/BV17a4y1x7zq)
+
+感谢狂神！期待你更好的作品！
+
